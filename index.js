@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api', usersRoutes);
 
 //Iniciar el servidor
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Servidor activo en http://localhost:${PORT}`);
 });
